@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Set font to Roboto */
+  line-height: 1.6;
+  /* Adds spacing between lines of text */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  /* Light background */
+  color: #333;
+}
+
+/* Navbar Styling */
+nav ul {
+  list-style-type: none;
+  /* Removes the bullet points */
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  /* Makes the items display inline */
+  margin-right: 20px;
+  /* Adds spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: white;
+  /* Link color */
+  font-size: 1.2em;
+  padding: 15px 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  /* Darker background on hover */
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 60px 20px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Projects Section Styling */
+.projects {
+  margin: 0 10%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Individual Project Styling */
+.project-item {
+  background-color: #ecf0f1;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Hover effect */
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  /* Slight hover effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  /* More prominent shadow */
+}
+
+.project-item h3 {
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 1em;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.project-item ul {
+  margin-left: 20px;
+  font-size: 1em;
+  color: #7f8c8d;
+}
+
+.project-item ul li {
+  margin-bottom: 5px;
+}
+
+.project-item a {
+  font-size: 1.1em;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
